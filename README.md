@@ -6,7 +6,7 @@
 1. `git clone https://github.com/NeuroSenko/image-caption-webui.git`
 2. Run `install.bat` in order to init venv and install python deps
 3. Download LLM model and put it to `/models/LLM` folder:  
-You can use [Meta-LLama-3.1-8B](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B/tree/main) ([not-gated mirror](https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated/tree/main)) or any of it's finetune like [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B/tree/main)
+You can use [Meta-LLama-3.1-8B](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B/tree/main) ([not-gated mirror](https://huggingface.co/unsloth/Meta-Llama-3.1-8B/tree/main)) or any of it's finetune like [Hermes-3-Llama-3.1-8B](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B/tree/main)
 4. Download [CLIP](https://huggingface.co/google/siglip-so400m-patch14-384/tree/main) model and put it to `/models/CLIP` folder
 5. Download [Image Adapter](https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha/tree/main/wpkklhc6) and put it to `/models/image_adapter` folder
 
