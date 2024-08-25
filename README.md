@@ -35,9 +35,15 @@ Models folder structure should be something like this:
 6. Run `start.bat` to run the program
 
 ## Troubleshooting
-
+### Torch CUDA error
 If you get `Torch not compiled with CUDA enabled` error, try these two commands:
 ```
 .\venv\Scripts\activate
 pip install torch --index-url https://download.pytorch.org/whl/cu118
+```
+
+### Use only single GPU
+If you have multiple GPUs and want to use only one of them, you can add this command in `start.bat` scripg before `python.app` call:
+```
+set CUDA_VISIBLE_DEVICES=0
 ```
