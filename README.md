@@ -43,7 +43,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 ```
 
 ### Use only single GPU
-If you have multiple GPUs and want to use only one of them, you can add this command in `start.bat` scripg before `python.app` call:
+If you have multiple GPUs and want to use only one of them, you can add this command in `start.bat` scripg before `python app.py` call:
 ```
 set CUDA_VISIBLE_DEVICES=0
 ```
