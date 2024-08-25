@@ -33,3 +33,11 @@ Models folder structure should be something like this:
 └── ...
 ```
 6. Run `start.bat` to run the program
+
+## Troubleshooting
+
+If you get `Torch not compiled with CUDA enabled` error, try these two commands:
+```
+.\venv\Scripts\activate
+pip install torch --index-url https://download.pytorch.org/whl/cu118
+```
